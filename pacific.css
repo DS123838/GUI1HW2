@@ -1,0 +1,123 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+body {
+    background-color: #00569f;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* wrapper */
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url(ptrbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* header */
+header {
+    background-color: #000033;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h2 {
+    color: #3399CC;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* nav */
+nav {
+    width: 150px;
+    float: left;
+    background-color: #aec8e0;
+    min-height: 300px;
+    padding: 10px;
+}
+
+nav ul {
+    font-size: 1.2em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000033;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* content stays to the right of the nav */
+#content {
+    margin-left: 170px;
+    background-color: #ffffff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* coast image stays left inside content */
+#content img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+#content ul {
+    list-style-image: url(marker.gif);
+    padding-left: 20px;
+}
+
+/* resort name styling */
+.resort {
+    color: #344873;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+dt {
+    color: #000033;
+}
+
+/* footer */
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    clear: both;
+    padding: 10px;
+    border-top: 1px solid #cccccc;
+}
+
+footer a {
+    color: #344873;
+}
